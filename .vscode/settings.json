@@ -1,0 +1,10 @@
+{
+  // Configure automatically when the folder opens, then the ▶ button in the
+  // status bar builds and launches the app.
+  "cmake.configureOnOpen": true,
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.configureSettings": { "CMAKE_BUILD_TYPE": "Release" },
+  "cmake.debugConfig": { "cwd": "${workspaceFolder}" },
+  "cmake.options.statusBarVisibility": "visible",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
